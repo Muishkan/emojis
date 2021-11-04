@@ -12,7 +12,7 @@ body {
 
 .header {
   position: sticky;
-  margin-bottom: 40px;
+  padding-bottom: 30px;
   top: 0;
   z-index: 2;
   background-color: #bdb2ff;
@@ -32,7 +32,7 @@ body {
   width: 30vw;
   min-width: 250px;
   line-height: 40px;
-  margin: 30px auto;
+  margin: 20px auto;
   align-self: center;
   border-radius: 5px;
   padding-left: 20px;
@@ -42,4 +42,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+a {
+  text-decoration: none;
 }

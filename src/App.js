@@ -29,7 +29,7 @@ function App() {
   return (
     <div className="container">
       <Search str={str} setStr={setStr} setResults={setResults} />
-      {searchResult()};
+      {searchResult()}
       <Footer />
     </div>
   );
